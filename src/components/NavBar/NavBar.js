@@ -9,7 +9,38 @@ const NavBar = () => {
   return (
     <>
       <header>
-        <nav>
+        <nav className="navbar">
+          <div className="brand-title">Jon Cobb</div>
+          <div className="navbar-links"></div>
+          <ul>
+            <li href="">
+              <Link smooth to="#home">
+                Home
+              </Link>
+            </li>
+            <li href="">
+              <Link smooth to="#about">
+                About
+              </Link>
+            </li>
+            <li href="">
+              <Link smooth to="#projects">
+                Projects
+              </Link>
+            </li>
+            <li href="">
+              <Link smooth to="#experience">
+                Skills
+              </Link>
+            </li>
+            <li href="">
+              <Link smooth to="#contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        {/* <nav>
           <ul>
             <li href="">
               <Link smooth className="nav-link" to="#home">
@@ -36,8 +67,8 @@ const NavBar = () => {
                 Contact
               </Link>
             </li>
-          </ul>
-        </nav>
+          </ul> */}
+        {/* </nav> */}
       </header>
     </>
   );

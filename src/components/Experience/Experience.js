@@ -18,6 +18,7 @@ import {
   FaBootstrap,
   FaGithub,
   FaGitAlt,
+  FaSass,
 } from "react-icons/fa";
 
 const Experience = () => {
@@ -82,6 +83,9 @@ const Experience = () => {
             </li>
             <li>
               <SiPostman size="3em" color="EF5B25" />
+            </li>
+            <li>
+              <FaSass size="3em" color="#c69" />
             </li>
           </ul>
         </div>

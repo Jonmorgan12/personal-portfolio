@@ -9,10 +9,12 @@ import Projects from "../Projects/Projects";
 import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import Bars from "../Bars/Bars";
 
 function App() {
   return (
     <Router>
+      <Bars />
       <NavBar />
       <Home />
       <About />
