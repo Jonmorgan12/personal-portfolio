@@ -8,7 +8,7 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 import Bars from "../Bars/Bars";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       <Switch>
         <Route path="/home" exact component={Home} />
         <Route path="/about" exact component={About} />

@@ -26,6 +26,7 @@ const Projects = () => {
           <img
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            loading="lazy"
             alt=""
           ></img>
           <div id="blahhh">
@@ -52,6 +53,7 @@ const Projects = () => {
           <img
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            loading="lazy"
             alt=""
           ></img>
           <div id="blahhh">
@@ -78,6 +80,7 @@ const Projects = () => {
           <img
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            loading="lazy"
             alt=""
           ></img>
           <div id="blahhh">
@@ -104,6 +107,7 @@ const Projects = () => {
           <img
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            loading="lazy"
             alt=""
           ></img>
           <div id="blahhh">
@@ -131,6 +135,7 @@ const Projects = () => {
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
             alt=""
+            loading="lazy"
           ></img>
           <div id="blahhh">
             <h3>Tic Tac Toe</h3>
@@ -157,6 +162,7 @@ const Projects = () => {
             id="project-image-left"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
             alt=""
+            loading="lazy"
           ></img>
           <div id="blahhh">
             <h3>Calculator</h3>

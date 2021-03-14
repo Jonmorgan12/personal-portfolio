@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <>
       <div id="home"></div>
-
       <div id="bigImage">
         <div id="homeTitle">
           <p>Jon Cobb</p>
