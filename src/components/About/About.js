@@ -52,7 +52,7 @@ const About = () => {
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
             alt=""
           ></img> */}
-          <h3>Some more random text</h3>
+          <h3>Some random text</h3>
           <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
