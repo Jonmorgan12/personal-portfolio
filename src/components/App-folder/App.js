@@ -8,20 +8,16 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
-// import Footer from "../Footer/Footer";
-import Bars from "../Bars/Bars";
 
 function App() {
   return (
     <Router>
-      <Bars />
       <NavBar />
       <Home />
       <About />
       <Projects />
       <Experience />
       <Contact />
-      {/* <Footer /> */}
       <Switch>
         <Route path="/home" exact component={Home} />
         <Route path="/about" exact component={About} />
