@@ -19,12 +19,12 @@ const NavBar = () => {
     <>
       <header>
         <nav className="navbar">
-          <div className="brand-title">(BRAND)</div>
-          <a href="#" className="toggle-button">
+          <div className="brand-title">Jon Cobb</div>
+          <div className="toggle-button">
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
-          </a>
+          </div>
           <div className="navbar-links">
             <ul>
               <li href="">

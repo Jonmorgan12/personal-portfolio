@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Image from "../../../src/assets/JonPhoto1.jpg";
 
 //typewriting animation!!!
 
@@ -9,12 +10,10 @@ const Home = () => {
       <div id="home"></div>
       <div id="bigImage">
         <div id="homeTitle">
-          <p>Jon Cobb</p>
-          <h3 id="homeSubHeader">Software Engineer.</h3>
-          <img
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
-            alt=""
-          ></img>
+          {/* <p>Jon Cobb</p>
+          <h3 id="homeSubHeader">Software Engineer.</h3> */}
+          <h1>Software Engineer.</h1>
+          <img src={Image} alt="selfie" />
         </div>
       </div>
     </>
