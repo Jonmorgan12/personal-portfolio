@@ -1,8 +1,12 @@
 import React from "react";
 import "./Projects.css";
 import { Link } from "react-router-dom";
-
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Image1 from "../../../src/assets/virtual-traders.png";
+import Image2 from "../../../src/assets/fitness-tracker.png";
+import Image3 from "../../../src/assets/strangers-things.png";
+import Image4 from "../../../src/assets/personal-portfolio.png";
+import Image5 from "../../../src/assets/tic-tac-toe.png";
+import image6 from "../../../src/assets/calculator.png";
 
 //Create a link to the code and a link to the projects
 //fix gab in between projects
@@ -27,9 +31,9 @@ const Projects = () => {
         <div id="projectDescriptionContainer">
           <img
             id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            src={Image1}
             loading="lazy"
-            alt=""
+            alt="img1"
           ></img>
           <div id="blahhh">
             <h3>Virtual Velocity</h3>
@@ -59,8 +63,9 @@ const Projects = () => {
       <div>
         <div id="projectDescriptionContainer">
           <img
+            style={{ objectFit: "cover", objectPosition: "left" }}
             id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            src={Image2}
             loading="lazy"
             alt=""
           ></img>
@@ -103,8 +108,9 @@ const Projects = () => {
       <div>
         <div id="projectDescriptionContainer">
           <img
+            style={{ objectFit: "cover", objectPosition: "left" }}
             id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
+            src={Image3}
             loading="lazy"
             alt=""
           ></img>
@@ -115,7 +121,7 @@ const Projects = () => {
             </Link>
             <Link
               to={{
-                pathname: "https://compassionate-bartik-a21014.netlify.app/",
+                pathname: "https://determined-kalam-314241.netlify.app/",
               }}
               target="_blank"
               rel="noreferrer"
@@ -139,12 +145,7 @@ const Projects = () => {
 
       <div>
         <div id="projectDescriptionContainer">
-          <img
-            id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
-            loading="lazy"
-            alt=""
-          ></img>
+          <img id="project-image-left" src={Image4} loading="lazy" alt=""></img>
           <div id="blahhh">
             <h3>Personal Portfolio</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
@@ -168,12 +169,7 @@ const Projects = () => {
 
       <div>
         <div id="projectDescriptionContainer">
-          <img
-            id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
-            alt=""
-            loading="lazy"
-          ></img>
+          <img id="project-image-left" src={Image5} alt="" loading="lazy"></img>
           <div id="blahhh">
             <h3>Tic Tac Toe</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
@@ -203,12 +199,7 @@ const Projects = () => {
 
       <div>
         <div id="projectDescriptionContainer">
-          <img
-            id="project-image-left"
-            src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
-            alt=""
-            loading="lazy"
-          ></img>
+          <img id="project-image-left" src={image6} alt="" loading="lazy"></img>
           <div id="blahhh">
             <h3>Calculator</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">

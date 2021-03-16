@@ -19,7 +19,7 @@
 }
 
 #projectDescriptionContainer img {
-  max-width: 16rem;
+  /* max-width: 16rem; */
   border: 2px solid rgb(228, 228, 228);
   box-shadow: 5px 5px 10px rgb(201, 201, 201);
 }
@@ -29,6 +29,10 @@
   margin-right: 30px;
   margin-bottom: 10px;
   border-radius: 10px;
+  width: 16em;
+  height: 16em;
+  object-fit: cover;
+  object-position: center;
 }
 
 #projectsLineBreak {
