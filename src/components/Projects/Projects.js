@@ -2,6 +2,8 @@ import React from "react";
 import "./Projects.css";
 import { Link } from "react-router-dom";
 
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 //Create a link to the code and a link to the projects
 //fix gab in between projects
 
@@ -31,7 +33,13 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Virtual Velocity</h3>
-            <Link>source code</Link>
+            <Link
+              to={{ pathname: "https://github.com/2006-cpu/virtual-velocity" }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              source code
+            </Link>
             <Link>deployed site</Link>
           </div>
           <hr id="projectsLineBreak"></hr>
@@ -58,8 +66,25 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Fitness Tracker</h3>
-            <Link>source code</Link>
-            <Link>deployed site</Link>
+            <Link
+              to={{
+                pathname:
+                  "https://github.com/Jonmorgan12/UNIV_FitnessTrackr_React_Starter",
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              source code
+            </Link>
+            <Link
+              to={{
+                pathname: "https://boring-wright-f10ed1.netlify.app/",
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              deployed site
+            </Link>
           </div>
           <hr id="projectsLineBreak"></hr>
           <p>
@@ -85,8 +110,18 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Strangers Things</h3>
-            <Link>source code</Link>
-            <Link>deployed site</Link>
+            <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
+              source code
+            </Link>
+            <Link
+              to={{
+                pathname: "https://compassionate-bartik-a21014.netlify.app/",
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              deployed site
+            </Link>
           </div>
           <hr id="projectsLineBreak"></hr>
           <p>
@@ -112,7 +147,9 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Personal Portfolio</h3>
-            <Link>source code</Link>
+            <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
+              source code
+            </Link>
             <Link>deployed site</Link>
           </div>
           <hr id="projectsLineBreak"></hr>
@@ -139,8 +176,16 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Tic Tac Toe</h3>
-            <Link>source code</Link>
-            <Link>deployed site</Link>
+            <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
+              source code
+            </Link>
+            <Link
+              to={{ pathname: "https://youthful-mayer-bd7f06.netlify.app/" }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              deployed site
+            </Link>
           </div>
           <hr id="projectsLineBreak"></hr>
           <p>
@@ -166,8 +211,16 @@ const Projects = () => {
           ></img>
           <div id="blahhh">
             <h3>Calculator</h3>
-            <Link>source code</Link>
-            <Link>deployed site</Link>
+            <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
+              source code
+            </Link>
+            <Link
+              to={{ pathname: "https://practical-sammet-e73bc4.netlify.app/" }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              deployed site
+            </Link>
           </div>
           <hr id="projectsLineBreak"></hr>
           <p>
