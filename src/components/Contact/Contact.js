@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
         <div id="contactSubHeader">
           <h5>
-            Download my contact information{" "}
+            Download my resume{" "}
             <a href={Resume} download="Jon Cobb Resume">
               here
             </a>

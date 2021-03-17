@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,10 +15,22 @@ window.onload = function () {
 };
 
 const NavBar = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeNavbar = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavbar);
+
   return (
     <>
       <header>
-        <nav className="navbar">
+        <nav className={navbar ? "navbar active" : "navbar"}>
           <div className="brand-title">Jon Cobb</div>
           <div className="toggle-button">
             <span className="bar"></span>
@@ -29,27 +41,27 @@ const NavBar = () => {
             <ul>
               <li href="">
                 <Link smooth className="nav-link" to="#home">
-                  Home
+                  HOME
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#about">
-                  About
+                  ABOUT
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#projects">
-                  Projects
+                  PROJECTS
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#experience">
-                  Skills
+                  SKILLS
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#contact">
-                  Contact
+                  CONTACT
                 </Link>
               </li>
             </ul>
