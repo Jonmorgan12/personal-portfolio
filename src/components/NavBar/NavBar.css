@@ -8,12 +8,16 @@ body {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  /* background-color: #333; */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
   color: white;
   padding: 0;
+  width: 100%;
 }
 
 .brand-title {
@@ -38,8 +42,9 @@ body {
   display: block;
 }
 
-.navbar-links li:hover {
-  background-color: #555;
+.nav-link:hover {
+  color: black;
+  transition: color 600ms ease 0s;
 }
 
 .toggle-button {

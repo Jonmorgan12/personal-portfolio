@@ -10,7 +10,7 @@
 
 #projectDescriptionContainer {
   max-width: 800px;
-  margin: 40px auto 20px;
+  margin: 40px auto 40px;
   font-family: plain, sans-serif;
 }
 
@@ -20,8 +20,10 @@
 
 #projectDescriptionContainer img {
   /* max-width: 16rem; */
-  border: 2px solid rgb(228, 228, 228);
-  box-shadow: 5px 5px 10px rgb(201, 201, 201);
+  /* border: 2px solid rgb(235, 235, 235);
+  box-shadow: 5px 5px 10px rgb(201, 201, 201); */
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 #project-image-left {
@@ -50,6 +52,6 @@
 #blahhh {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }

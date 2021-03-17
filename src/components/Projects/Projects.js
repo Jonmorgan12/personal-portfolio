@@ -9,24 +9,20 @@ import Image5 from "../../../src/assets/tic-tac-toe.png";
 import image6 from "../../../src/assets/calculator.png";
 
 //Create a link to the code and a link to the projects
-//fix gab in between projects
 
 const Projects = () => {
   return (
     <>
       <div id="projects"></div>
-
       <div>
         <hr id="lineBreak"></hr>
       </div>
-
       <div id="projectsTitle">
         <p>Projects</p>
       </div>
-      <div id="contactSubHeader">
+      {/* <div id="contactSubHeader">
         <h3>Follow the links.</h3>
-      </div>
-
+      </div> */}
       <div>
         <div id="projectDescriptionContainer">
           <img
@@ -36,6 +32,7 @@ const Projects = () => {
             alt="img1"
           ></img>
           <div id="blahhh">
+            {/* NEED DEPLOYED SITE LINK */}
             <h3>Virtual Velocity</h3>
             <Link
               to={{ pathname: "https://github.com/2006-cpu/virtual-velocity" }}
@@ -59,7 +56,6 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
       <div>
         <div id="projectDescriptionContainer">
           <img
@@ -104,7 +100,6 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
       <div>
         <div id="projectDescriptionContainer">
           <img
@@ -115,6 +110,7 @@ const Projects = () => {
             alt=""
           ></img>
           <div id="blahhh">
+            {/* NEED SOURCE CODE LINK */}
             <h3>Strangers Things</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
               source code
@@ -142,11 +138,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
       <div>
         <div id="projectDescriptionContainer">
           <img id="project-image-left" src={Image4} loading="lazy" alt=""></img>
           <div id="blahhh">
+            {/* NEED BOTH LINKS */}
             <h3>Personal Portfolio</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
               source code
@@ -166,11 +162,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
       <div>
         <div id="projectDescriptionContainer">
           <img id="project-image-left" src={Image5} alt="" loading="lazy"></img>
           <div id="blahhh">
+            {/* NEED SOURCE CODE LINK */}
             <h3>Tic Tac Toe</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
               source code
@@ -196,11 +192,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
       <div>
         <div id="projectDescriptionContainer">
           <img id="project-image-left" src={image6} alt="" loading="lazy"></img>
           <div id="blahhh">
+            {/* NEED SOURCE CODE LINK */}
             <h3>Calculator</h3>
             <Link to={{ pathname: "" }} target="_blank" rel="noreferrer">
               source code

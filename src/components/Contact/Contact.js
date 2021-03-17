@@ -3,6 +3,7 @@ import React from "react";
 // import { Form, Button } from "react-bootstrap";
 // import { RiMailSendLine } from "react-icons/ri";
 import "./Contact.css";
+import Resume from "../../resume/jon-cobb-resume.pdf";
 
 const Contact = () => {
   return (
@@ -21,7 +22,7 @@ const Contact = () => {
         <div id="contactSubHeader">
           <h5>
             Download my contact information{" "}
-            <a href="../resume/resume.pdf" download="Jon Cobb Resume">
+            <a href={Resume} download="Jon Cobb Resume">
               here
             </a>
             .
