@@ -13,7 +13,7 @@ const Home = () => {
           {/* <p>Jon Cobb</p>
           <h3 id="homeSubHeader">Software Engineer.</h3> */}
           <h1>Software Engineer.</h1>
-          <img src={Image} alt="selfie" />
+          <img src={Image} alt="selfie" data-aos="" />
         </div>
       </div>
     </>

@@ -22,17 +22,12 @@ const Projects = () => {
       </div>
       <div id="contactSubHeader">
         <h3>Follow the links.</h3>
-        {/* <header className="main-header">
-        <h1>
-          <span>Title</span>Sub Titile
-        </h1>
-      </header> */}
       </div>
       <main className="container">
         <section className="card">
-          <img src={Image1} alt=""></img>
+          <img src={Image1} alt="virtual-velocity" loading="lazy"></img>
           <div>
-            <h3>Image one</h3>
+            <h3>Virtual Velocity</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -43,20 +38,32 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://github.com/2006-cpu/virtual-velocity",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-left">
-          <img src={Image2} alt="" style={{ objectPosition: "left" }}></img>
+          <img
+            src={Image2}
+            alt="fitness-tracker"
+            style={{ objectPosition: "left" }}
+            loading="lazy"
+          ></img>
           <div>
-            <h3>Image Two</h3>
+            <h3>Fitness Tracker</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -67,20 +74,33 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link
+                to={{
+                  pathname:
+                    "https://github.com/Jonmorgan12/UNIV_FitnessTrackr_React_Starter",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-right">
-          <img src={Image3} alt="" style={{ objectPosition: "left" }}></img>
+          <img
+            src={Image3}
+            alt="strangers-things"
+            style={{ objectPosition: "left" }}
+            loading="lazy"
+          ></img>
           <div>
-            <h3>Image Three</h3>
+            <h3>Strangers Things</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -91,20 +111,20 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link href="#" className="btn">
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-left">
-          <img src={Image4} alt=""></img>
+          <img src={Image4} alt="portfolio" loading="lazy"></img>
           <div>
-            <h3>Image Four</h3>
+            <h3>Personal Portfolio</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -115,20 +135,20 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link href="#" className="btn">
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-right">
-          <img src={Image5} alt=""></img>
+          <img src={Image5} alt="tic-tac-toe" loading="lazy"></img>
           <div>
-            <h3>Image Five</h3>
+            <h3>Tic Tac Toe</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -139,20 +159,20 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link href="#" className="btn">
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-left">
-          <img src={Image6} alt=""></img>
+          <img src={Image6} alt="calculator" loading="lazy"></img>
           <div>
-            <h3>Image Six</h3>
+            <h3>Calculator</h3>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -163,12 +183,12 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <a href="#" className="btn">
+              <Link href="#" className="btn">
                 Button
-              </a>
-              <a href="#" className="btn">
+              </Link>
+              <Link href="#" className="btn">
                 Button
-              </a>
+              </Link>
             </div>
           </div>
         </section>
