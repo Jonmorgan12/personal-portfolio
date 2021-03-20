@@ -41,27 +41,27 @@ const NavBar = () => {
             <ul>
               <li href="">
                 <Link smooth className="nav-link" to="#home">
-                  HOME
+                  Home
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#about">
-                  ABOUT
+                  About
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#projects">
-                  PROJECTS
+                  Projects
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#experience">
-                  SKILLS
+                  Skills
                 </Link>
               </li>
               <li href="">
                 <Link smooth className="nav-link" to="#contact">
-                  CONTACT
+                  Contact
                 </Link>
               </li>
             </ul>
