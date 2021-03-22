@@ -53,7 +53,14 @@ const Projects = () => {
               >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://virtual-trader.herokuapp.com/",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
@@ -91,7 +98,14 @@ const Projects = () => {
               >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://boring-wright-f10ed1.netlify.app/",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
@@ -118,10 +132,25 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <Link href="#" className="btn">
+              <Link
+                to="/"
+                className="btn"
+                style={{
+                  textDecoration: "2px solid red line-through",
+                  cursor: "none",
+                }}
+                disabled="true"
+              >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://determined-kalam-314241.netlify.app/",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
@@ -147,10 +176,24 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://github.com/Jonmorgan12/personal-portfolio",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                // to={{
+                //   pathname: "",
+                // }}
+                // target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
@@ -176,10 +219,25 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <Link href="#" className="btn">
+              <Link
+                to="/"
+                className="btn"
+                style={{
+                  textDecoration: "2px solid red line-through",
+                  cursor: "none",
+                }}
+                disabled="true"
+              >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://youthful-mayer-bd7f06.netlify.app/",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
@@ -205,10 +263,25 @@ const Projects = () => {
               literature, discovered the undoubtable source. Lorem Ipsum comes
             </p>
             <div id="blahhh">
-              <Link href="#" className="btn">
+              <Link
+                to="/"
+                className="btn"
+                style={{
+                  textDecoration: "2px solid red line-through",
+                  cursor: "none",
+                }}
+                disabled="true"
+              >
                 Github
               </Link>
-              <Link href="#" className="btn">
+              <Link
+                to={{
+                  pathname: "https://practical-sammet-e73bc4.netlify.app",
+                }}
+                target="_blank"
+                rel="noreferrer"
+                className="btn"
+              >
                 Deployed
               </Link>
             </div>
