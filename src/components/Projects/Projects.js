@@ -17,15 +17,20 @@ const Projects = () => {
         <hr id="projectsLineBreak"></hr>
       </div>
       <div id="projects"></div>
-      <div id="projectsTitle">
+      <div id="projectsTitle" data-aos="zoom-in-left">
         <p>Projects</p>
       </div>
-      <div id="contactSubHeader">
+      {/* <div id="contactSubHeader">
         <h3>Follow the links.</h3>
-      </div>
+      </div> */}
       <main className="container">
-        <section className="card">
-          <img src={Image1} alt="virtual-velocity" loading="lazy"></img>
+        <section className="card" data-aos="fade-right" data-aos-delay="800">
+          <img
+            src={Image1}
+            alt="virtual-velocity"
+            loading="lazy"
+            id="left-image"
+          ></img>
           <div>
             <h3>Virtual Velocity</h3>
             <p>
@@ -46,10 +51,10 @@ const Projects = () => {
                 rel="noreferrer"
                 className="btn"
               >
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>
@@ -61,6 +66,7 @@ const Projects = () => {
             alt="fitness-tracker"
             style={{ objectPosition: "left" }}
             loading="lazy"
+            id="right-image"
           ></img>
           <div>
             <h3>Fitness Tracker</h3>
@@ -83,10 +89,10 @@ const Projects = () => {
                 rel="noreferrer"
                 className="btn"
               >
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>
@@ -98,6 +104,7 @@ const Projects = () => {
             alt="strangers-things"
             style={{ objectPosition: "left" }}
             loading="lazy"
+            id="left-image"
           ></img>
           <div>
             <h3>Strangers Things</h3>
@@ -112,17 +119,22 @@ const Projects = () => {
             </p>
             <div id="blahhh">
               <Link href="#" className="btn">
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-left">
-          <img src={Image4} alt="portfolio" loading="lazy"></img>
+          <img
+            src={Image4}
+            alt="portfolio"
+            loading="lazy"
+            id="right-image"
+          ></img>
           <div>
             <h3>Personal Portfolio</h3>
             <p>
@@ -136,17 +148,22 @@ const Projects = () => {
             </p>
             <div id="blahhh">
               <Link href="#" className="btn">
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-right">
-          <img src={Image5} alt="tic-tac-toe" loading="lazy"></img>
+          <img
+            src={Image5}
+            alt="tic-tac-toe"
+            loading="lazy"
+            id="left-image"
+          ></img>
           <div>
             <h3>Tic Tac Toe</h3>
             <p>
@@ -160,17 +177,22 @@ const Projects = () => {
             </p>
             <div id="blahhh">
               <Link href="#" className="btn">
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>
         </section>
 
         <section className="card" data-aos="fade-left">
-          <img src={Image6} alt="calculator" loading="lazy"></img>
+          <img
+            src={Image6}
+            alt="calculator"
+            loading="lazy"
+            id="right-image"
+          ></img>
           <div>
             <h3>Calculator</h3>
             <p>
@@ -184,10 +206,10 @@ const Projects = () => {
             </p>
             <div id="blahhh">
               <Link href="#" className="btn">
-                Button
+                Github
               </Link>
               <Link href="#" className="btn">
-                Button
+                Deployed
               </Link>
             </div>
           </div>

@@ -10,14 +10,18 @@ const About = () => {
         <hr id="lineBreak"></hr>
       </div> */}
 
-      <div id="aboutTitle">
+      <div id="aboutTitle" data-aos="zoom-in-right">
         <p>About</p>
       </div>
-      <div id="contactSubHeader">
+      {/* <div id="contactSubHeader">
         <h3>A little about me.</h3>
-      </div>
+      </div> */}
       <div id="aboutContainer">
-        <div id="descriptionContainer">
+        <div
+          id="descriptionContainer"
+          data-aos="fade-down"
+          data-aos-delay="800"
+        >
           {/* <img
             id="floating-image-right"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"

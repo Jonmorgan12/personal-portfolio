@@ -30,14 +30,14 @@ const Experience = () => {
         <hr id="lineBreak"></hr>
       </div>
 
-      <div id="projectsTitle">
+      <div id="projectsTitle" data-aos="zoom-in-right">
         <p>Skills</p>
       </div>
-      <div id="contactSubHeader">
+      {/* <div id="contactSubHeader">
         <h3>Here are some of my skills.</h3>
-      </div>
+      </div> */}
       <div id="skillsContainer">
-        <div id="skillsImages">
+        <div id="skillsImages" data-aos="fade-in" data-aos-delay="200">
           <ul>
             <li>
               <SiJavascript
