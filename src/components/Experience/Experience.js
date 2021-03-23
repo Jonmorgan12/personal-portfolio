@@ -31,7 +31,7 @@ const Experience = () => {
       </div>
 
       <div id="projectsTitle" data-aos="zoom-in-right">
-        <p>Skills</p>
+        <p>.skills(experience)</p>
       </div>
       {/* <div id="contactSubHeader">
         <h3>Here are some of my skills.</h3>

@@ -14,7 +14,7 @@ const Contact = () => {
           <hr id="lineBreak"></hr>
         </div>
         <div id="projectsTitle">
-          <p>Contact</p>
+          <p>.contact(me)</p>
         </div>
         <div id="contactSubHeader">
           <h3>I look forward to do buisness with you.</h3>
