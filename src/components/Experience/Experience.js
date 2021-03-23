@@ -10,6 +10,8 @@ import {
   SiHeroku,
   SiNetlify,
   SiPostman,
+  SiFirebase,
+  SiRedux,
 } from "react-icons/si";
 
 import {
@@ -21,15 +23,15 @@ import {
   FaSass,
 } from "react-icons/fa";
 
+import { AiOutlineConsoleSql } from "react-icons/ai";
+
 const Experience = () => {
   return (
     <>
       <div id="experience"></div>
-
       <div>
         <hr id="lineBreak"></hr>
       </div>
-
       <div id="projectsTitle" data-aos="zoom-in-right">
         <p>.skills(experience)</p>
       </div>
@@ -49,25 +51,31 @@ const Experience = () => {
               />
             </li>
             <li>
-              <SiJquery size="3em" />
-            </li>
-            <li>
               <FaNode size="3em" color="3C873A" />
             </li>
             <li>
-              <SiCss3 size="3em" color="2965f1" />
+              <SiPostgresql size="3em" color="336791" />
             </li>
             <li>
               <SiHtml5 size="3em" color="f06529" />
             </li>
             <li>
+              <SiCss3 size="3em" color="2965f1" />
+            </li>
+            <li>
+              <FaSass size="3em" color="#c69" />
+            </li>
+            <li>
               <FaReact size="3em" color="61DBFB" />
             </li>
             <li>
-              <FaBootstrap size="3em" color="563d7c" />
+              <SiRedux size="3em" color="#764abc" />
             </li>
             <li>
-              <SiPostgresql size="3em" color="336791" />
+              <SiJquery size="3em" color="#0868AC" />
+            </li>
+            <li>
+              <FaBootstrap size="3em" color="563d7c" />
             </li>
             <li>
               <SiHeroku size="3em" color="6567a5" />
@@ -85,9 +93,25 @@ const Experience = () => {
               <SiPostman size="3em" color="EF5B25" />
             </li>
             <li>
-              <FaSass size="3em" color="#c69" />
+              <SiFirebase size="3em" color="#FFA611" />
+            </li>
+            <li>
+              <AiOutlineConsoleSql size="3em" color="#00758F" />
             </li>
           </ul>
+          <br></br>
+          <div>
+            <b>
+              Languages: JavaScript, Node.js, SQL, HTML5, CSS, SASS
+              <br></br>
+              Frameworks/Libraries: React, Redux, JQuery, Bootstrap 4 / React
+              Bootstrap
+              <br></br>
+              Databases: PostgreSQL
+              <br></br>
+              Other Tools: Github, Git, Postman, Heroku, Netlify, Firebase
+            </b>
+          </div>
         </div>
       </div>
     </>

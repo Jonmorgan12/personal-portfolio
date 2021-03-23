@@ -68,10 +68,10 @@ const About = () => {
             looking at my picture. However, I am training to compete in amature
             cage fighting! Yup thats right, I get beat up for fun... and on
             ocasions give the beating for fun. I picked a bad hobby and career
-            to dedicate all my time to. But I can say with pure honesty I love
-            what I do. I really do not like the saying that "All developers are
-            lazy!". People who say that clearly havent gotten the chance to know
-            me. I'd like to change that way of thinking with the work I produce!
+            to dedicate all my time to. But I can say with honesty I love what I
+            do. I really do not like the saying that "All developers are lazy!".
+            People who say that clearly havent gotten the chance to know me. I'd
+            like to change that way of thinking with the work I produce!
           </p>
         </div>
       </div>
