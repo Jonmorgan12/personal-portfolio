@@ -8,21 +8,16 @@ import Image4 from "../../../src/assets/personal-portfolio.png";
 import Image5 from "../../../src/assets/tic-tac-toe.png";
 import Image6 from "../../../src/assets/calculator.png";
 
-//Create a link to the code and a link to the projects
-
 const Projects = () => {
   return (
     <>
-      <div>
-        <hr id="projectsLineBreak"></hr>
-      </div>
       <div id="projects"></div>
-      <div id="projectsTitle" data-aos="zoom-in-left">
+      <div>
+        <hr className="projectsLineBreak"></hr>
+      </div>
+      <div className="projectsTitle" data-aos="zoom-in-left">
         <p>.my(projects)</p>
       </div>
-      {/* <div id="contactSubHeader">
-        <h3>Follow the links.</h3>
-      </div> */}
       <main className="container">
         <section className="card" data-aos="fade-right">
           <img
@@ -48,7 +43,7 @@ const Projects = () => {
                 Back End: SQL, Node.js, PostgreSQL
               </b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to={{
                   pathname: "https://github.com/2006-cpu/virtual-velocity",
@@ -98,7 +93,7 @@ const Projects = () => {
                 Back End: SQL, Node.js, PostgreSQL, Jest
               </b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to={{
                   pathname:
@@ -149,7 +144,7 @@ const Projects = () => {
                 Back End: SQL, Node.js, PostgreSQL
               </b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to="/"
                 className="btn"
@@ -197,7 +192,7 @@ const Projects = () => {
               <br />
               <b>Back End: NAN</b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to={{
                   pathname: "https://github.com/Jonmorgan12/personal-portfolio",
@@ -244,7 +239,7 @@ const Projects = () => {
               <br />
               <b>Back End: NAN</b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to="/"
                 className="btn"
@@ -291,7 +286,7 @@ const Projects = () => {
               <br />
               <b>Back End: NAN</b>
             </p>
-            <div id="blahhh">
+            <div className="linkContainer">
               <Link
                 to="/"
                 className="btn"

@@ -2,7 +2,15 @@
   padding-bottom: 8rem;
 }
 
-#contactSubHeader {
+.contactSubHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: plain, sans-serif;
+  color: rgb(119, 119, 119);
+}
+
+.resumeSubHeader {
   display: flex;
   justify-content: center;
   align-items: center;

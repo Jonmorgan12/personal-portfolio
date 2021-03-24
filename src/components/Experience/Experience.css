@@ -7,9 +7,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   justify-content: space-evenly;
-  /* align-items: center; */
   max-width: 600px;
 }
 
@@ -19,8 +17,7 @@
 }
 
 #skillsContainer li:hover {
-  /* opacity: 0.7; */
+  opacity: 0.8;
   cursor: pointer;
-  filter: drop-shadow(2px 4px 8px grey);
-  /* box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5); */
+  filter: drop-shadow(2px 4px 8px lightgrey);
 }

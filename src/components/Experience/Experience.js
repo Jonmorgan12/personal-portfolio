@@ -35,9 +35,6 @@ const Experience = () => {
       <div id="projectsTitle" data-aos="zoom-in-right">
         <p>.skills(experience)</p>
       </div>
-      {/* <div id="contactSubHeader">
-        <h3>Here are some of my skills.</h3>
-      </div> */}
       <div id="skillsContainer">
         <div id="skillsImages" data-aos="fade-in" data-aos-delay="200">
           <ul>
@@ -99,16 +96,16 @@ const Experience = () => {
               <SiFirebase size="3em" color="#FFA611" />
             </li>
           </ul>
-          <br></br>
+          <br />
           <div>
             <b>
               Languages: JavaScript, HTML5, CSS, SASS, SQL,
-              <br></br>
+              <br />
               Frameworks/Libraries: React, Redux, JQuery, Bootstrap 4 / React
               Bootstrap
-              <br></br>
+              <br />
               Databases: PostgreSQL
-              <br></br>
+              <br />
               Other Tools: Node.js, Github, Git, Postman, Heroku, Netlify,
               Firebase
             </b>

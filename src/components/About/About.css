@@ -1,34 +1,14 @@
-#descriptionContainer {
+.descriptionContainer {
   max-width: 1000px;
   margin: 40px auto 20px;
   font-family: plain, sans-serif;
 }
 
-#descriptionContainer p {
+.descriptionContainer p {
   text-align: justify;
 }
 
-#descriptionContainer img {
-  max-width: 400px;
-  /* border: 2px solid black; */
-  box-shadow: 5px 5px 12px rgb(201, 201, 201);
-  border-radius: 10px;
-}
-
-#floating-image-right {
-  float: right;
-  margin-left: 30px;
-  /* margin-bottom: 10px; */
-  /* clip-path: circle(); */
-}
-
-#floating-image-left {
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  /* clip-path: circle(); */
-}
-
+/* make line break for respected components */
 #lineBreak {
   border: none;
   height: 2px;
@@ -41,7 +21,7 @@
   margin-bottom: 5rem;
 }
 
-#aboutTitle {
+.aboutTitle {
   margin-top: 5rem;
   font-size: 56px;
   letter-spacing: 0.005em;
@@ -50,11 +30,12 @@
   justify-content: center;
   align-items: center;
   color: #1d1d1f;
+  position: static;
 }
 
 /* Ipad */
 @media (max-width: 770px) {
-  #descriptionContainer {
+  .descriptionContainer {
     max-width: 400px;
     margin: 40px auto 20px;
     font-family: plain, sans-serif;
@@ -69,7 +50,7 @@
 
 /* Iphone */
 @media (max-width: 375px) {
-  #descriptionContainer {
+  .descriptionContainer {
     max-width: 300px;
     margin: 30px auto 10px;
     font-family: plain, sans-serif;
@@ -81,3 +62,24 @@
     align-items: center;
   }
 }
+
+/* can reuse this styling for photos */
+/* #descriptionContainer img {
+  max-width: 400px;
+  box-shadow: 5px 5px 12px rgb(201, 201, 201);
+  border-radius: 10px;
+} */
+
+/* #floating-image-right { */
+/* float: right;
+  margin-left: 30px;
+  margin-bottom: 10px; */
+/* clip-path: circle(); */
+/* } */
+
+/* #floating-image-left {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px; */
+/* clip-path: circle(); */
+/* } */

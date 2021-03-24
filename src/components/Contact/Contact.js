@@ -1,25 +1,22 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-// import { Form, Button } from "react-bootstrap";
-// import { RiMailSendLine } from "react-icons/ri";
 import "./Contact.css";
 import Resume from "../../resume/jon-cobb-resume.pdf";
 
 const Contact = () => {
   return (
     <>
+      <div id="contact"></div>
       <div className="contactContainer">
-        <div id="contact"></div>
         <div>
           <hr id="lineBreak"></hr>
         </div>
         <div id="projectsTitle">
           <p>.contact(me)</p>
         </div>
-        <div id="contactSubHeader">
+        <div className="contactSubHeader">
           <h3>I look forward to do buisness with you.</h3>
         </div>
-        <div id="contactSubHeader">
+        <div className="resumeSubHeader">
           <h5>
             Download my resume{" "}
             <a href={Resume} download="Jon Cobb Resume">

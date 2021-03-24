@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
@@ -14,6 +13,7 @@ window.onload = function () {
   });
 };
 
+//function to controll navbar fading on scroll
 const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
 
@@ -39,27 +39,27 @@ const NavBar = () => {
           </div>
           <div className="navbar-links">
             <ul>
-              <li href="">
+              <li>
                 <Link smooth className="nav-link" to="#home">
                   Home
                 </Link>
               </li>
-              <li href="">
+              <li>
                 <Link smooth className="nav-link" to="#about">
                   About
                 </Link>
               </li>
-              <li href="">
+              <li>
                 <Link smooth className="nav-link" to="#projects">
                   Projects
                 </Link>
               </li>
-              <li href="">
+              <li>
                 <Link smooth className="nav-link" to="#experience">
                   Skills
                 </Link>
               </li>
-              <li href="">
+              <li>
                 <Link smooth className="nav-link" to="#contact">
                   Contact
                 </Link>
