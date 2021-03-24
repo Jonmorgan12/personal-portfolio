@@ -50,6 +50,18 @@
 
 /* Iphone */
 @media (max-width: 375px) {
+  .aboutTitle {
+    margin-top: 5rem;
+    font-size: 36px;
+    letter-spacing: 0.005em;
+    font-family: Menlo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d1f;
+    position: static;
+  }
+
   .descriptionContainer {
     max-width: 300px;
     margin: 30px auto 10px;

@@ -32,11 +32,11 @@ const Experience = () => {
       <div>
         <hr id="lineBreak"></hr>
       </div>
-      <div id="projectsTitle" data-aos="zoom-in-right">
+      <div className="skillsTitle" data-aos="zoom-in-right">
         <p>.skills(experience)</p>
       </div>
-      <div id="skillsContainer">
-        <div id="skillsImages" data-aos="fade-in" data-aos-delay="200">
+      <div className="skillsContainer">
+        <div className="skillsImages" data-aos="fade-in" data-aos-delay="200">
           <ul>
             <li>
               <SiJavascript
@@ -97,7 +97,7 @@ const Experience = () => {
             </li>
           </ul>
           <br />
-          <div>
+          <div className="skillsList">
             <b>
               Languages: JavaScript, HTML5, CSS, SASS, SQL,
               <br />

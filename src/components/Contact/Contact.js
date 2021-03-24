@@ -10,7 +10,7 @@ const Contact = () => {
         <div>
           <hr id="lineBreak"></hr>
         </div>
-        <div id="projectsTitle">
+        <div className="contactTitle">
           <p>.contact(me)</p>
         </div>
         <div className="contactSubHeader">

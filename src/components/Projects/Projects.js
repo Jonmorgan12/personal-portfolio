@@ -152,7 +152,7 @@ const Projects = () => {
                   textDecoration: "2px solid red line-through",
                   cursor: "none",
                 }}
-                disabled="true"
+                disabled={true}
               >
                 Github
               </Link>
@@ -247,7 +247,7 @@ const Projects = () => {
                   textDecoration: "2px solid red line-through",
                   cursor: "none",
                 }}
-                disabled="true"
+                disabled={true}
               >
                 Github
               </Link>
@@ -294,7 +294,7 @@ const Projects = () => {
                   textDecoration: "2px solid red line-through",
                   cursor: "none",
                 }}
-                disabled="true"
+                disabled={true}
               >
                 Github
               </Link>

@@ -1,9 +1,9 @@
-#skillsImages li {
+.skillsImages li {
   list-style: none;
   margin: 20px;
 }
 
-#skillsContainer ul {
+.skillsContainer ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -11,13 +11,43 @@
   max-width: 600px;
 }
 
-#skillsContainer {
+.skillsContainer {
   display: flex;
   justify-content: center;
 }
 
-#skillsContainer li:hover {
+.skillsContainer li:hover {
   opacity: 0.8;
   cursor: pointer;
   filter: drop-shadow(2px 4px 8px lightgrey);
+}
+
+.skillsTitle {
+  margin-top: 5rem;
+  font-size: 56px;
+  letter-spacing: 0.005em;
+  font-family: Menlo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d1d1f;
+  position: static;
+}
+
+@media (max-width: 375px) {
+  .skillsTitle {
+    margin-top: 5rem;
+    font-size: 36px;
+    letter-spacing: 0.005em;
+    font-family: Menlo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d1f;
+    position: static;
+  }
+
+  .skillsList {
+    font-size: 0.75rem;
+  }
 }
