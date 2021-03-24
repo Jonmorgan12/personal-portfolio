@@ -208,6 +208,10 @@ const Projects = () => {
                 //   pathname: "",
                 // }}
                 // target="_blank"
+                style={{
+                  textDecoration: "2px solid red line-through",
+                  cursor: "none",
+                }}
                 rel="noreferrer"
                 className="btn"
               >
