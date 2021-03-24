@@ -51,12 +51,6 @@ const Experience = () => {
               />
             </li>
             <li>
-              <FaNode size="3em" color="3C873A" />
-            </li>
-            <li>
-              <SiPostgresql size="3em" color="336791" />
-            </li>
-            <li>
               <SiHtml5 size="3em" color="f06529" />
             </li>
             <li>
@@ -64,6 +58,9 @@ const Experience = () => {
             </li>
             <li>
               <FaSass size="3em" color="#c69" />
+            </li>
+            <li>
+              <AiOutlineConsoleSql size="3em" color="#00758F" />
             </li>
             <li>
               <FaReact size="3em" color="61DBFB" />
@@ -78,10 +75,10 @@ const Experience = () => {
               <FaBootstrap size="3em" color="563d7c" />
             </li>
             <li>
-              <SiHeroku size="3em" color="6567a5" />
+              <SiPostgresql size="3em" color="336791" />
             </li>
             <li>
-              <SiNetlify size="3em" color="00C7B7" />
+              <FaNode size="3em" color="3C873A" />
             </li>
             <li>
               <FaGithub size="3em" color="black" />
@@ -93,23 +90,27 @@ const Experience = () => {
               <SiPostman size="3em" color="EF5B25" />
             </li>
             <li>
-              <SiFirebase size="3em" color="#FFA611" />
+              <SiHeroku size="3em" color="6567a5" />
             </li>
             <li>
-              <AiOutlineConsoleSql size="3em" color="#00758F" />
+              <SiNetlify size="3em" color="00C7B7" />
+            </li>
+            <li>
+              <SiFirebase size="3em" color="#FFA611" />
             </li>
           </ul>
           <br></br>
           <div>
             <b>
-              Languages: JavaScript, Node.js, SQL, HTML5, CSS, SASS
+              Languages: JavaScript, HTML5, CSS, SASS, SQL,
               <br></br>
               Frameworks/Libraries: React, Redux, JQuery, Bootstrap 4 / React
               Bootstrap
               <br></br>
               Databases: PostgreSQL
               <br></br>
-              Other Tools: Github, Git, Postman, Heroku, Netlify, Firebase
+              Other Tools: Node.js, Github, Git, Postman, Heroku, Netlify,
+              Firebase
             </b>
           </div>
         </div>
