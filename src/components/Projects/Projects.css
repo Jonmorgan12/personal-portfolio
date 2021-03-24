@@ -81,7 +81,7 @@ img {
 
 .card > div {
   padding: 2rem;
-  /* background-color: lightgray; */
+  /* background-color: rgb(233, 233, 233); */
 }
 
 .card:nth-child(even) img {

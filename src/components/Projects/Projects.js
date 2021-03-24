@@ -32,15 +32,21 @@ const Projects = () => {
             id="left-image"
           ></img>
           <div>
-            <h3>Virtual Velocity</h3>
+            <h3>Virtual Traders</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Fullstack mock eCommerce/Shopify application that was developed as
+              the capstone project during my remaining time attending Fullstack.
+              This project simulated a real work enviorment based on the demands
+              of the client and certain deadlines to meet as a team of
+              developers.
+              <br />
+              <br />
+              <b>
+                Front End: React, JavaScript, HTML, CSS, React Bootstrap
+                <br />
+                <br />
+                Back End: SQL, Node.js, PostgreSQL
+              </b>
             </p>
             <div id="blahhh">
               <Link
@@ -78,13 +84,19 @@ const Projects = () => {
           <div>
             <h3>Fitness Tracker</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Fullstack application, soley developed to track an individuals
+              workout. This project allowed a new or current user to create a
+              routine and add multiple different workouts to those routines. If
+              the user then chose, he or she can post that routine publicly for
+              all to see!
+              <br />
+              <br />
+              <b>
+                Front End: React, JavaScript, HTML, CSS, Bootstrap 4
+                <br />
+                <br />
+                Back End: SQL, Node.js, PostgreSQL, Jest
+              </b>
             </p>
             <div id="blahhh">
               <Link
@@ -123,13 +135,19 @@ const Projects = () => {
           <div>
             <h3>Strangers Things</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Fullstack mock Craigslist application, soley developed with the
+              purpose to sell a users items. This project allowed a new or
+              current user to post a new item with a detailed time and
+              description. When the user is then ready, he or she can post the
+              item publicly, update, or delete the item when sold!
+              <br />
+              <br />
+              <b>
+                Front End: JavaScript, HTML, CSS, Bootstrap 4
+                <br />
+                <br />
+                Back End: SQL, Node.js, PostgreSQL
+              </b>
             </p>
             <div id="blahhh">
               <Link
@@ -165,15 +183,19 @@ const Projects = () => {
             id="right-image"
           ></img>
           <div>
-            <h3>Personal Portfolio</h3>
+            <h3>Professional Portfolio</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Front end portfolio application, soley developed with the purpose
+              to house current/future projects and highlight my styling and
+              design skills. The site consists of react smooth scrolling, fading
+              and sliding animations, hyperlinks, download component, and mobile
+              responsivness.
+              <br />
+              <br />
+              <b>Front End: React, JavaScript, HTML, CSS</b>
+              <br />
+              <br />
+              <b>Back End: NAN</b>
             </p>
             <div id="blahhh">
               <Link
@@ -210,13 +232,17 @@ const Projects = () => {
           <div>
             <h3>Tic Tac Toe</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Front end game application, soley developed with the purpose to
+              recreate the traditional tic tac toe game. The game was created
+              using primarily Jquery and Javascript logic and allows up to two
+              players to go head to head and test their competitive tic tac toe
+              skills!
+              <br />
+              <br />
+              <b>Front End: JavaScript, HTML, CSS</b>
+              <br />
+              <br />
+              <b>Back End: NAN</b>
             </p>
             <div id="blahhh">
               <Link
@@ -254,13 +280,16 @@ const Projects = () => {
           <div>
             <h3>Calculator</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
+              Front end calculator application, soley developed with the purpose
+              to recreate the functionality and mimic the iphone calculator. The
+              application was created using primarily Jquery and Javascript.
+              users can use this application for basic math logic.
+              <br />
+              <br />
+              <b>Front End: JavaScript, HTML, CSS</b>
+              <br />
+              <br />
+              <b>Back End: NAN</b>
             </p>
             <div id="blahhh">
               <Link
