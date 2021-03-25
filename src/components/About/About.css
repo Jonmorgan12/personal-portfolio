@@ -33,6 +33,10 @@
   position: static;
 }
 
+p {
+  color: #1d1d1f;
+}
+
 /* Ipad */
 @media (max-width: 770px) {
   .descriptionContainer {
