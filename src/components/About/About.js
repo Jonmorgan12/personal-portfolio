@@ -22,7 +22,7 @@ const About = () => {
         <p>
           Hello! and welcome to my personal portfolio. My name is Jon, and I am
           a full stack software developer. I bring over two years of developing
-          experience designing and successfully debloying applications with a
+          experience designing and successfully deploying applications with a
           focus on front end development. Last year prior to the first shut
           down, I enrolled in a course through Fullstack Academy. Fullstack is a
           top-ranked coding bootcamp with campuses in NYC, Chicago, and online.

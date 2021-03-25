@@ -14,7 +14,7 @@ const Contact = () => {
           <p>.contact(me)</p>
         </div>
         <div className="contactSubHeader">
-          <h3>I look forward to do buisness with you.</h3>
+          <h3>I look forward to do business with you.</h3>
         </div>
         <div className="resumeSubHeader">
           <h5>
