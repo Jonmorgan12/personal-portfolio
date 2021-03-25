@@ -1,3 +1,9 @@
 body {
   color: #fbfbfb;
 }
+
+p,
+h3,
+b {
+  color: #1d1d1f;
+}
