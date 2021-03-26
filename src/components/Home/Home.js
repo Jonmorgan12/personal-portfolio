@@ -8,7 +8,7 @@ const Home = () => {
       <div id="home"></div>
       <div className="bigImage">
         <div className="homeTitle">
-          <h1 data-aos="fade-up">Software Engineer.</h1>
+          <h1 data-aos="fade-up">Software Engineer</h1>
           <img
             src={Image}
             alt="selfie"

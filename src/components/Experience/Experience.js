@@ -32,7 +32,7 @@ const Experience = () => {
       <div>
         <hr id="lineBreak"></hr>
       </div>
-      <div className="skillsTitle" data-aos="zoom-in-right">
+      <div className="skillsTitle">
         <p>.skills(experience)</p>
       </div>
       <div className="skillsContainer">
@@ -97,9 +97,9 @@ const Experience = () => {
             </li>
           </ul>
           <br />
-          <div className="skillsList">
+          <div className="skillsList" data-aos="fade-down">
             <b>
-              Languages: JavaScript, HTML5, CSS, SASS, SQL,
+              Languages: JavaScript, HTML5, CSS, SCSS, SQL,
               <br />
               Frameworks/Libraries: React, Redux, JQuery, Bootstrap 4 / React
               Bootstrap

@@ -15,7 +15,7 @@ const Projects = () => {
       <div>
         <hr className="projectsLineBreak"></hr>
       </div>
-      <div className="projectsTitle" data-aos="zoom-in-left">
+      <div className="projectsTitle">
         <p>.my(projects)</p>
       </div>
       <main className="container">

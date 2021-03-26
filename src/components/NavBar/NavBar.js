@@ -18,7 +18,7 @@ const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeNavbar = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 50) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -31,7 +31,7 @@ const NavBar = () => {
     <>
       <header>
         <nav className={navbar ? "navbar active" : "navbar"}>
-          <div className="brand-title">Jon Cobb</div>
+          <div className="brand-title"> Jon Cobb</div>
           <div className="toggle-button">
             <span className="bar"></span>
             <span className="bar"></span>

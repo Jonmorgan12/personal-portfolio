@@ -7,3 +7,9 @@ h3,
 b {
   color: #1d1d1f;
 }
+
+b,
+h3 {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}

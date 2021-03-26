@@ -5,14 +5,10 @@ const About = () => {
   return (
     <>
       <div id="about"></div>
-      <div className="aboutTitle" data-aos="zoom-in-right">
+      <div className="aboutTitle">
         <p>.about(me)</p>
       </div>
-      <div
-        className="descriptionContainer"
-        data-aos="fade-down"
-        data-aos-delay="800"
-      >
+      <div className="descriptionContainer" data-aos="fade-in">
         {/* <img
             id="floating-image-right"
             src="https://www.harmonytoc.com/Content/img/offline/tool/audit/placeholder.png"
