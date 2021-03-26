@@ -36,7 +36,7 @@ const Experience = () => {
         <p>.skills(experience)</p>
       </div>
       <div className="skillsContainer">
-        <div className="skillsImages" data-aos="fade-in" data-aos-delay="200">
+        <div className="skillsImages" data-aos="fade-in">
           <ul>
             <li>
               <SiJavascript
