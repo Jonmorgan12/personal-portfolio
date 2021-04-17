@@ -30,8 +30,8 @@ body {
 
 .brand-title {
   font-size: 1.5rem;
-  margin: 0.5rem;
-  color: #333;
+  margin-left: 1rem;
+  color: black;
   letter-spacing: 0;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .navbar-links li a {
   text-decoration: none;
-  color: #333;
+  color: rgb(0, 0, 0);
   padding: 1rem;
   display: block;
 }

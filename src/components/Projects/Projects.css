@@ -75,6 +75,7 @@ img {
   align-items: center;
   color: #1d1d1f;
   margin-bottom: 2rem;
+  text-shadow: 2px 2px rgb(206, 206, 206);
 }
 
 .projectsLineBreak {

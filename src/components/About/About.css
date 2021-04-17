@@ -31,6 +31,14 @@
   align-items: center;
   color: #1d1d1f;
   position: static;
+  text-shadow: 2px 2px rgb(206, 206, 206);
+}
+
+.descriptionContainer h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 /* Ipad */
