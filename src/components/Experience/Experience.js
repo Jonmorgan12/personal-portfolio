@@ -97,17 +97,17 @@ const Experience = () => {
             </li>
           </ul>
           <br />
-          <div className="skillsList" data-aos="fade-down">
+          <div className="skillsList" data-aos="fade-up">
             <b>
               Languages: JavaScript, HTML5, CSS, SCSS, SQL,
               <br />
-              Frameworks/Libraries: React, Redux, JQuery, Bootstrap 4 / React
-              Bootstrap
+              Frameworks/Libraries: React, React Native, Redux, JQuery,
+              Bootstrap 4
               <br />
               Databases: PostgreSQL
               <br />
               Other Tools: Node.js, Github, Git, Postman, Heroku, Netlify,
-              Firebase
+              Google Firebase
             </b>
           </div>
         </div>

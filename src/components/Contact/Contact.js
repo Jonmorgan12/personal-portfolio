@@ -2,6 +2,9 @@ import React from "react";
 import "./Contact.css";
 import Resume from "../../resume/jon-cobb-resume.pdf";
 
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { SiGmail } from "react-icons/si";
+
 const Contact = () => {
   return (
     <>
@@ -25,6 +28,19 @@ const Contact = () => {
             .
           </h5>
         </div>
+        {/* <div className="contact-icons">
+          <ul>
+            <li>
+              <FaLinkedin size="3em" color="#0077b5" />
+            </li>
+            <li>
+              <FaGithub size="3em" color="black" />
+            </li>
+            <li>
+              <SiGmail size="3em" color="red" />
+            </li>
+          </ul>
+        </div> */}
       </div>
     </>
   );

@@ -32,6 +32,7 @@ const NavBar = () => {
       <header>
         <nav className={navbar ? "navbar active" : "navbar"}>
           <div className="brand-title"> Jon Cobb</div>
+
           <div className="toggle-button">
             <span className="bar"></span>
             <span className="bar"></span>
